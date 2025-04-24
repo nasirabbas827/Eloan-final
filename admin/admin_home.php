@@ -491,9 +491,7 @@ while ($row = $borrower_stats_result->fetch_assoc()) {
                 <a href="view_applications.php" class="btn btn-outline-primary btn-lg me-2">
                     <i class="fas fa-list me-2"></i> View All Applications
                 </a>
-                <a href="update_profile.php" class="btn btn-outline-secondary btn-lg">
-                    <i class="fas fa-user me-2"></i> Update Profile
-                </a>
+                
             </div>
         </div>
 </div>
