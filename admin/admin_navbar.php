@@ -18,6 +18,9 @@
         <a class="nav-link" href="reports.php">Reports</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="admin_reply.php">Customer Supports</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="logout.php">Logout</a>
       </li>
     </ul>

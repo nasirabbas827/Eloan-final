@@ -20,7 +20,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="view_applications.php">View Applications</a>
             </li>
-            
+            <li class="nav-item">
+                <a class="nav-link" href="contact_support.php">Customer Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="view_messages.php">Replies</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link" href="logout.php">Logout</a>
             </li>
