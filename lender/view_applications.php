@@ -41,7 +41,7 @@ if (isset($_POST['update_status'])) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'nasiryt.827@gmail.com';
-        $mail->Password = 'mtvp ruzp aqfu tfxt';
+        $mail->Password = "YOUR_OWN_API_KEY";
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
