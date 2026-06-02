@@ -7,7 +7,7 @@ require_once('stripe-php-master/init.php');
 
 // Stripe API keys
 $stripe_public_key = 'pk_test_51PQinLRrUKhdzOsDnpHkYJbi0HZIsF9xOVIcPZtsAr4nbH5h1p3o1jblMCPoB0glvFG3o1pbxQZLSiKRHgvuZRMt009qg1bTkq';
-$stripe_secret_key = 'sk_test_51PQinLRrUKhdzOsDK666N2V91NnsWKtb8mcYyrYwhPgDEheMluMygqAx0MnrgRTWyVwjMvRKsUjpxuyGvFFfuhKE00cD9K5EtD';
+$stripe_secret_key = "YOUR_OWN_API_KEY";
 
 if (!isset($_SESSION["id"])) {
     header("location: ../login.php");
