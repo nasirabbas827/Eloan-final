@@ -56,7 +56,7 @@ $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 $mail->Username = 'nasiryt.827@gmail.com'; 
-$mail->Password = 'mtvp ruzp aqfu tfxt'; // Use App Password
+$mail->Password = "YOUR_OWN_API_KEY"; // Use App Password
 $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
