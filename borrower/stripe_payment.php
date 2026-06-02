@@ -3,7 +3,7 @@ session_start();
 include('config.php');
 require_once('stripe-php-master/init.php');
 
-$stripe_secret_key = 'sk_test_51PQinLRrUKhdzOsDK666N2V91NnsWKtb8mcYyrYwhPgDEheMluMygqAx0MnrgRTWyVwjMvRKsUjpxuyGvFFfuhKE00cD9K5EtD';
+$stripe_secret_key = "YOUR_OWN_API_KEY";
 
 if (!isset($_SESSION["id"])) {
     header("location: ../login.php");
